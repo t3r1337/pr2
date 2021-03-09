@@ -28,7 +28,7 @@ namespace pr2
     }
     class Client
     {
-        public string firstName;
+        public string firstName; // 1
         public string lastName;
         public Client(string f, string l) { firstName = f; lastName = l; }
         public void DisplayClient()
